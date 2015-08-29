@@ -1,0 +1,20 @@
+{
+  "name": "docker-wordpress-seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "docker-compose build && docker-compose up"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morlay/docker-wordpress-seed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morlay/docker-wordpress-seed/issues"
+  },
+  "homepage": "https://github.com/morlay/docker-wordpress-seed#readme"
+}

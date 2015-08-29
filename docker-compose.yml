@@ -1,0 +1,15 @@
+wordpress:
+  build: .
+  links:
+    - db:mysql
+  ports:
+    - 8080:80
+  volumes:
+    - ./html:/var/www/html
+
+db:
+  image: mysql
+  ports:
+    - 3306:3306
+  environment:
+    MYSQL_ROOT_PASSWORD: This1sPa55w0rd

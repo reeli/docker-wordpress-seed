@@ -1,0 +1,17 @@
+_dist/
+_generated/
+node_modules/
+npm-debug.log
+
+config/runtime.json
+
+*.iml
+*.ipr
+*.iws
+*.ids
+*.log
+*.pyc
+.*.swp
+.idea
+.tern-project
+.DS_Store
