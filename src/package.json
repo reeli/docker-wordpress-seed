@@ -1,0 +1,12 @@
+{
+  "browser": {
+    "jquery": "jquery",
+    "lodash": "lodash"
+  },
+  "browserify": {
+    "transform": [
+      "babelify",
+      "envify"
+    ]
+  }
+}

@@ -5,11 +5,12 @@ wordpress:
   ports:
     - 8080:80
   volumes:
-    - ./html:/var/www/html
+    - ./_html:/var/www/html
+    - ./bin:/var/www/html/bin
 
 db:
   image: mysql
   ports:
     - 3306:3306
   environment:
-    MYSQL_ROOT_PASSWORD: This1sPa55w0rd
+    MYSQL_ROOT_PASSWORD: This1sP@55w0rd
