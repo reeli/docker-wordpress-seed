@@ -1,8 +1,6 @@
 #!/bin/bash
 
-sleep 1
-
-alias wp='wp --allow-root'
+shopt -s expand_aliases
 
 WP_SITE_URL="127.0.0.1:8080"
 WP_SITE_TITLE=Test
