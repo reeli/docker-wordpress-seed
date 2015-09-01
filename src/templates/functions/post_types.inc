@@ -11,6 +11,12 @@ function create_post_types()
                 'singular_name' => __('Product')
             ),
             'public' => true,
+            'supports' => array(
+                'title',
+                'editor',
+                'thumbnail',
+                'custom-fields'
+            ),
             'has_archive' => false,
         )
     );

@@ -19,5 +19,6 @@ wp core install \
   --debug
 
 wp plugin install sample-content-generator --activate
+wp plugin install advanced-custom-fields --activate
 
 wp theme activate customtheme
